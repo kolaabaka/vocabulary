@@ -19,11 +19,12 @@ public class Vocabulary extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Vocabulary");
         stage.setScene(scene);
+        stage.setAlwaysOnTop(true);
         stage.show();
     }
 
     public static void main(String[] args) throws IOException {
-        VocabularyUtil.initVoc();
+        VocabularyUtil.initVoc(args);
         launch();
     }
 

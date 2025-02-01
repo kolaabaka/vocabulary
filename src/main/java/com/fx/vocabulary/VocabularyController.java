@@ -36,7 +36,7 @@ public class VocabularyController implements Initializable {
 
     @FXML
     private void opacityLow(){
-        stage.setOpacity(0.5);
+        stage.setOpacity(0.3);
     }
 
     @FXML
